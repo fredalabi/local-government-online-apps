@@ -2,7 +2,6 @@
     "values": {
         "webmap": "0ebefb7ea74b425ebeb5853c42d01142",
         "titleBar.title": "Parcel Viewer",
-        "titleBar.iconUrl": "images/onlineapp.png",
         "colorizer.theme": "DarkGray",
         "searchBox.hint": "42757 Woodward Ave",
         "featureSearcher.searchLayerName": "Parcel Details",
@@ -181,7 +180,7 @@
         }
     }, {
         "classname": "js.LGTitleBar",
-        "styles": ".appTitleBar{height:52px;margin:0px;padding:2px;overflow:hidden;position:absolute}.titleIcon{height:48px;margin:4px;padding:0px;float:left}.titleText{height:48px;margin:4px;padding:0px;font-size:200%;vertical-align:middle;word-wrap:break-word;float:left}@media all and (max-width: 520px){.titleText{display:none}}",
+        "styles": ".appTitleBar{width:100%;height:64px;margin:0px;padding:0px;overflow:hidden;position:absolute;background-image:url(images/banner_image.png);background-repeat:no-repeat;background-size:100% 100%}.titleText{height:48px;margin:4px;padding:0px;font-size:200%;vertical-align:middle;word-wrap:break-word;float:left}@media all and (max-width: 520px){.titleText{display:none}}",
         "config": {
             "rootId": "titleBar",
             "parentDiv": "headerFrame",
